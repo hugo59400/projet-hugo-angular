@@ -1,0 +1,50 @@
+{
+    "films": [{
+            "id": 1,
+            "overview": "Après avoir choisi le journaliste d'enquête Eddie Brock comme hôte, le symbiote extraterrestre Venom doit affronter un nouvel ennemi du nom de Carnage, qui se trouve à être l'alter ego du tueur en série Cletus Kasady.",
+            "popularity": 12,
+            "poster_path": "assets/img/venom.jpg",
+            "release_date": "2021/10/20",
+            "title": "Venom"
+        },
+        {
+            "id": 2,
+            "overview": "Quelques minutes après que Laurie Strode, sa fille Karen et sa petite fille Allyson ont abandonné le monstrueux Michael Myers enfermé et en feu dans le sous-sol, Laurie se retrouve à l'hôpital avec des lésions mortelles, pensant avoir finalement tué son bourreau de toujours. Or, lorsque Michael réussit à se libérer, ses performances sanglantes reprennent. Tandis que Laurie se prépare à se défendre contre lui, elle motive toute la ville de Haddonfield à faire face à l'inarrêtable monstre.",
+            "popularity": 12,
+            "poster_path": "assets/img/halo.jpg",
+            "release_date": "2021/10/20",
+            "title": "Halloween Kills"
+        }
+
+    ],
+    "reservations": [
+
+    ],
+    "salles": [{
+            "id": 1,
+            "nom": "salle1"
+        },
+        {
+            "id": 2,
+            "nom": "salle2"
+        }
+
+
+    ],
+    "clients": [{
+            "id": 1,
+            "name": "coleau",
+            "firstname": "hugo",
+            "email": "test99@gmail.com"
+
+        },
+        {
+            "id": 2,
+            "name": "coleau",
+            "firstname": "theo",
+            "email": "test98@gmail.com"
+
+        }
+
+    ]
+}

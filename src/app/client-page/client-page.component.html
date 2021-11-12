@@ -1,0 +1,8 @@
+<header>
+    <h2>Liste des clients </h2>
+    <button mat-button color="primary" [routerLink]="['new']">Ajouter un client</button>
+
+</header>
+<div class="flex">
+    <app-client-card [client]="client" *ngFor="let client of clients" (deleteEmitter)="refreshClients()"></app-client-card>
+</div>

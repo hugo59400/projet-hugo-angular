@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header">
+        {{ film.title }}
+
+    </div>
+    <div class="card-content">
+        <ul>
+            <li>description : {{ film.overview }}</li>
+            <li>date de sortie: {{ film.release_date }}</li>
+            <li>title: {{ film.title }}</li>
+            <li>popularite: {{ film.popularity }}</li>
+            <li>image: <br> <img [src]="film.poster_path" width="80" /></li>
+        </ul>
+    </div>
+</div>

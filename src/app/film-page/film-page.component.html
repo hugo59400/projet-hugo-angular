@@ -1,0 +1,7 @@
+<header>
+    <h2>Liste des films </h2>
+    <button mat-button color="primary" [routerLink]="['new']">Ajouter un film</button>
+</header>
+<div class="flex">
+    <app-film-card [film]="film" *ngFor="let film of films" (deleteEmitter)="refreshFilms()"></app-film-card>
+</div>

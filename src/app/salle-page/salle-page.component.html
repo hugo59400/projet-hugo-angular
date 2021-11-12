@@ -1,0 +1,8 @@
+<header>
+    <h2>Liste des salles </h2>
+    <button mat-button color="primary" [routerLink]="['new']">Ajouter une salle</button>
+
+</header>
+<div class="flex">
+    <app-salle-card [salle]="salle" *ngFor="let salle of salles" (deleteEmitter)="refreshSalles()"></app-salle-card>
+</div>
